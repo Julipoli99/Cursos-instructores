@@ -1,0 +1,133 @@
+.App {
+  text-align: center;
+}
+
+.contenedor{
+  width: 100%;
+  padding: 15px;
+}
+
+
+.formulario{
+  background-color: white;
+  opacity: .8;
+  margin-top: 150px;
+  padding: 3px;
+}
+
+.formulario:hover{
+  opacity: 1;
+}
+
+h1{
+  text-align: center;
+  color: #1a2537;
+  font-size: 40px;
+}
+
+.contenedorCard{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+
+.cards{
+ border: 1px solid #000;
+
+}
+
+
+
+input[type = "text"],
+input[type = "password"],
+input[type = "datetime-local"],
+input[type = "checkbox"],
+select{
+  border: solid blue 1px;
+  font-size: 20px;
+  width: 82%;
+  padding: 10px;
+  border: none;
+}
+
+input[type = "datetime-local"]{
+  border: solid 1px #aaa;
+  margin-bottom: 15px;
+}
+
+input[type = "checkbox"]{
+  
+}
+
+
+.icon{
+  min-width: 50px;
+  text-align: center;
+  color: #999;
+}
+
+
+.contenedor-input{
+  margin-bottom: 15px;
+  border: solid 1px #aaa;
+}
+
+
+.button{
+  border: none;
+  width: 100%;
+  color: white;
+  font-size: 20px;
+  background-color: #1a2537;
+  padding: 15px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.button:hover{
+  background-color: cadetblue;
+}
+
+p{
+  text-align: center;
+}
+
+.link{
+  text-decoration: none;
+  color: #1a2537;
+  font-weight: 600;
+}
+
+.link:hover{
+  color: cadetblue;
+}
+
+.BotonTexto{
+  width: 20%;
+  height: 50px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+
+
+
+@media(min-width: 768px){
+  .formulario{
+      margin: auto;
+      width: 500px;
+      margin-top: 150px;
+      border-radius: 2%;
+  }
+
+  
+}
+
+
+@media(max-width: 800px){
+  span{
+      display: none;
+  }
+}
